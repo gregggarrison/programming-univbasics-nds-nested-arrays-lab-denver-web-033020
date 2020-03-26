@@ -117,5 +117,7 @@ def game_hash
       }                     
   end
 
-
+#return points by searching players name 
  def num_points_scored(players_name) 
+   game_hash
+ end 
