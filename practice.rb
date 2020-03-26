@@ -119,5 +119,6 @@ def game_hash
 
 #return points by searching players name 
  def num_points_scored(players_name) 
-   game_hash
+   game_hash do |place, team|
+     binding.pry 
  end 
