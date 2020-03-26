@@ -120,6 +120,7 @@ def game_hash
 #return points by searching players name 
  def num_points_scored(players_name) 
    game_hash do |place, team|
-     team
+     team.each do |attribute, data|
+     end
    end
  end 
