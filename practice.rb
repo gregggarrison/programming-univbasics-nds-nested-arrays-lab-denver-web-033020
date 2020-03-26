@@ -123,6 +123,8 @@ def game_hash
      team.each do |attribute, data|
        if attribute == :players 
           data.each do |player|
+            if player[:players_name]
+            end
           end
        end
      end
