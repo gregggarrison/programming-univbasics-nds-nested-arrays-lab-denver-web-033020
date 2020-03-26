@@ -123,8 +123,8 @@ def game_hash
      team.each do |attribute, data|
        if attribute == :players 
           data.each do |player|
-            if player[:players_name]
-              players_name[:points]
+            if player == :players_name
+              player[:points]
             end
           end
        end
