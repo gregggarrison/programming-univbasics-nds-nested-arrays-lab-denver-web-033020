@@ -122,6 +122,8 @@ def game_hash
    game_hash do |place, team|
      team.each do |attribute, data|
        if attribute == :players 
+          data.each do |player|
+          end
        end
      end
    end
