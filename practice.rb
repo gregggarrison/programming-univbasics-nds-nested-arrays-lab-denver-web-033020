@@ -121,7 +121,7 @@ def game_hash
  def num_points_scored(players_name) 
    game_hash do |place, team|
      team.each do |attribute, data|
-       if :player_name = players_name
+       if :player_name == players_name
          :player_name[:points]
        end
      end
